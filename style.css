@@ -6,6 +6,9 @@ body {
     background-size: contain;
     color: #1a1a1a;
 }
+
+/* hero secion */
+
 div.hb{background: url(images/Hero-bg.png)}
 .container {
     max-width: 1140px;
@@ -62,6 +65,8 @@ div.hb{background: url(images/Hero-bg.png)}
     cursor: pointer;
 }
 
+/* second secion */
+
 .preview-section {
     display: flex;
     justify-content: space-between;
@@ -77,14 +82,14 @@ div.hb{background: url(images/Hero-bg.png)}
 }
 
 .preview-text h2 {
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 700;
     color: #1a1a1a;
     margin-bottom: 12px;
 }
 
 .preview-text p {
-    font-size: 16px;
+    font-size: 20px;
     color: #666;
     margin-bottom: 24px;
     max-width: 400px;
@@ -96,7 +101,7 @@ div.hb{background: url(images/Hero-bg.png)}
     border: none;
     padding: 12px 20px;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
@@ -115,7 +120,7 @@ div.hb{background: url(images/Hero-bg.png)}
 .preview-image img {
     width: 100%;
     max-width: 420px;
-    border-radius: 24px;
+    border-radius: 48px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -125,11 +130,10 @@ div.hb{background: url(images/Hero-bg.png)}
     text-align: center;
     border-radius: 20px;
     margin: 60px auto;
-    max-width: 900px;
 }
 
 .stats-section h2 {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 700;
     margin-bottom: 40px;
     color: #1a1a1a;
@@ -147,13 +151,13 @@ div.hb{background: url(images/Hero-bg.png)}
 }
 
 .stat-number {
-    font-size: 32px;
+    font-size: 70px;
     font-weight: bold;
     color: #4a44f2;
 }
 
 .stat-label {
-    font-size: 14px;
+    font-size: 16px;
     color: #666;
     margin-top: 8px;
 }
