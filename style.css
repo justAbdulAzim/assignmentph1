@@ -227,6 +227,7 @@ textarea {
     font-family: inter;
     border-radius: 10px;
     padding: 15px;
+    padding-left: 25px !important;
 }
 
 
@@ -284,12 +285,17 @@ textarea {
     font-size: 18px;
     font-weight: 300;
 }
-button{padding: 12px 30px !important;}
+
+button {
+    padding: 12px 30px !important;
+}
+
 button:hover {
     background-color: darksalmon !important;
     transition: 0.5s;
 }
-.nav-links a:hover{
+
+.nav-links a:hover {
     color: darksalmon !important;
     transition: 0.5s;
 }
@@ -298,91 +304,91 @@ button:hover {
 /* challenge secion */
 
 .testimonials-section {
-            margin: 0 auto;
-            text-align: center;
-            height: 90vh;
-            padding-top: 40px;
-        }
+    margin: 0 auto;
+    text-align: center;
+    height: 90vh;
+    padding-top: 40px;
+}
 
-        .section-title {
-            font-size: 32px;
-            font-weight: 700;
-            color: #1a1a1a;
-            margin-bottom: 60px;
-        }
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 60px;
+}
 
-        .testimonials-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-            align-items: start;
-        }
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: start;
+}
 
-        .testimonial-card {
-            background: #fafcff;
-            border-radius: 16px;
-            padding: 32px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-            text-align: left;
-        }
+.testimonial-card {
+    background: #fafcff;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
 
-        .stars {
-            display: flex;
-            gap: 2px;
-            margin-bottom: 20px;
-        }
+.stars {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 20px;
+}
 
-        .star {
-            color: #ffc107;
-            font-size: 25px;
-        }
+.star {
+    color: #ffc107;
+    font-size: 25px;
+}
 
-        .testimonial-title {
-            font-size: 30px;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 12px;
-            line-height: 1.4;
-        }
+.testimonial-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
 
-        .testimonial-text {
-            color: #6b7280;
-            font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 24px;
-        }
+.testimonial-text {
+    color: #6b7280;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
 
-        .reviewer {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 
-        .reviewer-avatar img{
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: 600;
-            font-size: 14px;
-        }
+.reviewer-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
 
-        .reviewer-info {
-            display: flex;
-            flex-direction: column;
-        }
+.reviewer-info {
+    display: flex;
+    flex-direction: column;
+}
 
-        .reviewer-name {
-            font-weight: 600;
-            color: #1a1a1a;
-            font-size: 20px;
-        }
+.reviewer-name {
+    font-weight: 600;
+    color: #1a1a1a;
+    font-size: 20px;
+}
 
-        .reviewer-date {
-            color: #9ca3af;
-            font-size: 18px;
-            margin-top: 2px;
-        }
+.reviewer-date {
+    color: #9ca3af;
+    font-size: 18px;
+    margin-top: 2px;
+}
