@@ -6,9 +6,13 @@ body {
     background-size: contain;
     color: #1a1a1a;
 }
+div.hb{background: url(images/Hero-bg.png)}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 .header {
-    position: relative;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
@@ -19,6 +23,7 @@ body {
     font-weight: bold;
     color: #4a44f2;
     font-size: 20px;
+    margin:auto 0;
 }
 
 .signup-btn {
@@ -32,19 +37,18 @@ body {
 }
 
 .main-content {
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 0 20px;
-    background-color: aliceblue;
 }
 
 .main-content h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 60px;
+    margin-bottom: 30px;
     font-weight: 600;
 }
 
@@ -54,7 +58,7 @@ body {
     padding: 12px 24px;
     border: none;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -204,11 +208,6 @@ hr {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
 
 .description {
     margin-bottom: 30px;
@@ -240,12 +239,6 @@ hr {
     text-align: center;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
 }
 
 .description {
