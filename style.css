@@ -9,9 +9,12 @@ body {
 
 /* hero secion */
 
-div.hb{background: url(images/Hero-bg.png)}
+div.hb {
+    background: url(images/Hero-bg.png)
+}
+
 .container {
-    max-width: 1140px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -26,7 +29,11 @@ div.hb{background: url(images/Hero-bg.png)}
     font-weight: bold;
     color: #4a44f2;
     font-size: 20px;
-    margin:auto 0;
+    margin: auto 0;
+}
+
+.logo img {
+    width: 60px;
 }
 
 .signup-btn {
@@ -162,19 +169,33 @@ div.hb{background: url(images/Hero-bg.png)}
     margin-top: 8px;
 }
 
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
+.formsection {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+.formtexr {
+    font-size: 80px;
+    width: 50%;
 }
 
 .form-group {
     margin-bottom: 15px;
+    width: 50%;
 }
 
 label {
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
+    font-size: 20px;
+}
+
+input::placeholder {
+    font-size: 22px;
 }
 
 input,
@@ -184,17 +205,27 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: inter;
+}
+
+input {
+    height: 70px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    margin-bottom: 25px;
 }
 
 textarea {
     height: 100px;
+    font-size: 22px;
+    border: 1px solid #000;
 }
 
-hr {
-    border: 0;
-    height: 1px;
-    background-color: #ddd;
-    margin: 20px 0;
+.formsection .preview-btn {
+    width: 100%;
+    padding: 18px;
+    border-radius: 8px;
+    margin-top: 25px;
 }
 
 .footer {
@@ -204,19 +235,26 @@ hr {
 }
 
 .footer {
-    width: 100%;
-    max-width: 800px;
     padding: 40px 20px;
     text-align: center;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 100px;
 }
 
+.footlogo {
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
 .description {
     margin-bottom: 30px;
     line-height: 1.6;
     color: #555;
+    font-size: 25px;
+    font-weight: 500;
+
 }
 
 .nav-links {
@@ -224,46 +262,11 @@ hr {
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    bottom: 0;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-}
-
-.nav-links a:hover {
-    color: #007bff;
-}
-
-.footer {
-    width: 100%;
-    max-width: 800px;
-    padding: 40px 20px;
-    text-align: center;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.description {
-    margin-bottom: 30px;
-    line-height: 1.6;
-    color: #555;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.nav-links a:hover {
-    color: #007bff;
 }
